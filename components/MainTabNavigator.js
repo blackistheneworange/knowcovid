@@ -10,7 +10,7 @@ import {createMaterialBottomTabNavigator} from '@react-navigation/material-botto
 import Icon from 'react-native-vector-icons/Entypo';
 
 import HomeNavigator from './Home/HomeNavigator';
-import AnalysisNavigator from './Analysis/AnalysisNavigator';
+import WorldNavigator from './World/WorldNavigator';
 import NewsNavigator from './News/NewsNavigator';
 
 
@@ -36,14 +36,14 @@ function MainStackNavigator(props){
 		tabBarLabel:<Text style={{fontWeight:'bold'}}>Home</Text>,
 		tabBarIcon:({color})=>(
 		<Icon name='home' color={color} size={24}/>),
-		tabBarColor:'#8d22c7'
+		tabBarColor:'#9838a1'
 	
 		}}
 		/>
 
-		<Tab.Screen name='Analysis' component={AnalysisNavigator} options={{
-			tabBarLabel:<Text style={{fontWeight:'bold'}}>Analysis</Text>,
-			tabBarColor:'#50a334',
+		<Tab.Screen name='World' component={WorldNavigator} options={{
+			tabBarLabel:<Text style={{fontWeight:'bold'}}>World</Text>,
+			tabBarColor:'#0c944b',
                         tabBarIcon:({color})=>(
 				<Icon name='magnifying-glass' color={color} size={24}/>)
 			

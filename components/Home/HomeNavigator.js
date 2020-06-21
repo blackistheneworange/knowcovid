@@ -31,7 +31,7 @@ function HomeNavigator(props){
 		headerLeft:(props)=>(
 		     <Icon name="menu" size={24} color='#fff' style={{marginLeft:15,marginTop:5}} onPress={()=>navigation.toggleDrawer()}/>),
 		headerStyle:{
-			backgroundColor:'#8d22c7'
+			backgroundColor:'#bc63c9'
 		},
 			
 			
