@@ -145,7 +145,7 @@ function HomeComponent(props){
 		     
 	     }
 	     else{
-
+		setDistrictSelected('All')
 
 		setHelpline(helplineNumbers[1].contact_details.filter(each=>each.state_or_UT===value)[0])
 
